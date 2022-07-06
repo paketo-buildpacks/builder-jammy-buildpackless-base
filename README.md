@@ -3,7 +3,7 @@
 ## `paketobuildpacks/builder-jammy-buildpackless-base:latest`
 
 This builder uses the [Paketo Jammy Base
-Stack](https://github.com/paketo-buildpacks/jammy-base-stack) (an Ubuntu bionic
+Stack](https://github.com/paketo-buildpacks/jammy-base-stack) (an Ubuntu Jammy
 base image) and contains **no buildpacks nor order groups**. To use this
 builder, you must specify buildpacks at build time using whatever mechanisms
 your CNB platform of choice offers.
