@@ -8,11 +8,12 @@ base image) and contains **no buildpacks nor order groups**. To use this
 builder, you must specify buildpacks at build time using whatever mechanisms
 your CNB platform of choice offers.
 
-For example, with the `pack` CLI, use `--buildpack` as follows: ``` pack build
+For example, with the `pack` CLI, use `--buildpack` as follows:
+```bash
+pack build
 dotnet-with-buildpackless-builder \
 --buildpack gcr.io/paketo-buildpacks/dotnet-core \
 --builder paketobuildpacks/builder-jammy-buildpackless-base:latest
-
 ```
 
 To see which versions of build and run images and the lifecycle are contained
