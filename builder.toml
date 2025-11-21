@@ -4,7 +4,7 @@ description = "Ubuntu 22.04 Jammy Jellyfish base image with no buildpacks includ
   image = "docker.io/paketobuildpacks/build-jammy-base:0.1.180"
 
 [lifecycle]
-  version = "0.20.18"
+  version = "0.20.19"
 
 [run]
 
